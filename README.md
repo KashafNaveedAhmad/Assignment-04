@@ -1,6 +1,6 @@
 # Assignment-04
 In this assignment i've converted the previous assignent no 3 into a group of functions. 
-# Functions:
+# Function:
 'Function' is a set of instructions that perform specific task.Through functions,one can acess the local or child block of code at any point in the global code block.That can reduce redundancy ,makes the program efficient and reusable.
 # Syntax of 'Function'/Function defining:
 def function_name ():
