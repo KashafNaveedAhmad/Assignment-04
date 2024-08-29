@@ -43,7 +43,7 @@ def area_of_cube():
     print("\nLet's calculate the 'Area of Cube'.\nBelow:")
     side_of_cube=int(input("Enter the it's side:"))
     area_of_cube_calculate=(6*(side_of_cube**2))
-    print("The area of cube is:",area_of_cube)
+    print("The area of cube is:",area_of_cube_calculate)
     print("\n-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-")
     
     
@@ -115,7 +115,8 @@ def area_of_cylinder():
     radius_cylinder=float(input("Enter the radius:"))
     cy1=2*math.pi*(radius_cylinder**2)
     cy2=2*math.pi*radius_cylinder*height_cylinder
-    area_of_cylinder_calculate=print("The area of cylinder is:",cy1+cy2)
+    area_of_cylinder_calculate=cy1+cy2
+    print("The area of cylinder is:",area_of_cylinder_calculate)
     print("\n-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-")
     
     
